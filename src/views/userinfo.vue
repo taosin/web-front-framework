@@ -1,0 +1,3 @@
+<template>
+	Hello Kitty!
+</template>

@@ -1,0 +1,346 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'tether' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /Users/iMocco/workspace/xiegou-web-front/package.json
+5 warn package.json VueTheme-Red@0.1.0 No repository field.
+6 warn package.json VueTheme-Red@0.1.0 No license field.
+7 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/aliyunoss-webpack-plugin/package.json
+8 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/babel-core/package.json
+9 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/babel-loader/package.json
+10 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/babel-plugin-transform-runtime/package.json
+11 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/babel-preset-es2015/package.json
+12 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/babel-preset-stage-2/package.json
+13 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/babel-runtime/package.json
+14 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/chai/package.json
+15 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/chromedriver/package.json
+16 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/connect-history-api-fallback/package.json
+17 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/cross-spawn/package.json
+18 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/css-loader/package.json
+19 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/ejs/package.json
+20 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eslint/package.json
+21 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eslint-config-airbnb-base/package.json
+22 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eslint-config-standard/package.json
+23 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eslint-friendly-formatter/package.json
+24 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eslint-loader/package.json
+25 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eslint-plugin-html/package.json
+26 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eslint-plugin-import/package.json
+27 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eslint-plugin-promise/package.json
+28 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eslint-plugin-standard/package.json
+29 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/eventsource-polyfill/package.json
+30 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/express/package.json
+31 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/extract-text-webpack-plugin/package.json
+32 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/file-loader/package.json
+33 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/function-bind/package.json
+34 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/html-webpack-plugin/package.json
+35 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/http-proxy-middleware/package.json
+36 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/inject-loader/package.json
+37 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/isparta-loader/package.json
+38 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/json-loader/package.json
+39 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/karma/package.json
+40 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/karma-coverage/package.json
+41 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/karma-mocha/package.json
+42 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/karma-phantomjs-launcher/package.json
+43 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/karma-sinon-chai/package.json
+44 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/karma-sourcemap-loader/package.json
+45 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/karma-spec-reporter/package.json
+46 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/karma-webpack/package.json
+47 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/less/package.json
+48 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/less-loader/package.json
+49 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/lodash/package.json
+50 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/lolex/package.json
+51 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/mocha/package.json
+52 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/moment/package.json
+53 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/nightwatch/package.json
+54 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/ora/package.json
+55 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/phantomjs-prebuilt/package.json
+56 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/selenium-server/package.json
+57 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/shelljs/package.json
+58 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/sinon/package.json
+59 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/sinon-chai/package.json
+60 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/tether/package.json
+61 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/url-loader/package.json
+62 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/vue/package.json
+63 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/vue-hot-reload-api/package.json
+64 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/vue-html-loader/package.json
+65 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/vue-loader/package.json
+66 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/vue-resource/package.json
+67 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/vue-router/package.json
+68 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/vue-style-loader/package.json
+69 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/vuex/package.json
+70 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/vuex-router-sync/package.json
+71 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/webpack/package.json
+72 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/webpack-dev-middleware/package.json
+73 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/webpack-hot-middleware/package.json
+74 verbose installManyTop reading scoped package data from /Users/iMocco/workspace/xiegou-web-front/node_modules/webpack-merge/package.json
+75 info package.json eventsource-polyfill@0.9.6 No README data
+76 info package.json mocha@2.5.3 No README data
+77 info package.json vue@1.0.24 No README data
+78 info package.json vue-hot-reload-api@1.3.2 No README data
+79 info package.json vue-loader@8.5.2 No README data
+80 info package.json chromedriver@2.21.2 No license field.
+81 info package.json function-bind@1.1.0 No license field.
+82 info package.json less-loader@2.2.3 No license field.
+83 info package.json selenium-server@2.53.0 license should be a valid SPDX license expression
+84 info package.json vue-html-loader@1.2.2 No license field.
+85 info package.json webpack-dev-middleware@1.6.1 No license field.
+86 verbose readDependencies loading dependencies from /Users/iMocco/workspace/xiegou-web-front/package.json
+87 verbose install tether is installed as 1.3.2
+88 silly cache add args [ 'tether', null ]
+89 verbose cache add spec tether
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: 'tether',
+90 silly cache add   scope: null,
+90 silly cache add   name: 'tether',
+90 silly cache add   rawSpec: '',
+90 silly cache add   spec: 'latest',
+90 silly cache add   type: 'tag' }
+91 silly addNamed tether@latest
+92 verbose addNamed "latest" is being treated as a dist-tag for tether
+93 info addNameTag [ 'tether', 'latest' ]
+94 silly mapToRegistry name tether
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: 'tether',
+97 silly mapToRegistry   scope: null,
+97 silly mapToRegistry   name: 'tether',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/tether
+99 verbose addNameTag registry:https://registry.npmjs.org/tether not in flight; fetching
+100 verbose request uri https://registry.npmjs.org/tether
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 14:47:25
+103 verbose request id 8e3f2dcd0f44a62f
+104 verbose etag "D617DRS87AM45K15LJ1P7E82C"
+105 http request GET https://registry.npmjs.org/tether
+106 http 304 https://registry.npmjs.org/tether
+107 verbose headers { date: 'Wed, 15 Jun 2016 06:47:26 GMT',
+107 verbose headers   via: '1.1 varnish',
+107 verbose headers   'cache-control': 'max-age=300',
+107 verbose headers   etag: '"D617DRS87AM45K15LJ1P7E82C"',
+107 verbose headers   age: '136',
+107 verbose headers   connection: 'keep-alive',
+107 verbose headers   'x-served-by': 'cache-ams4133-AMS',
+107 verbose headers   'x-cache': 'HIT',
+107 verbose headers   'x-cache-hits': '74',
+107 verbose headers   'x-timer': 'S1465973246.496310,VS0,VE0',
+107 verbose headers   vary: 'Accept-Encoding' }
+108 silly get cb [ 304,
+108 silly get   { date: 'Wed, 15 Jun 2016 06:47:26 GMT',
+108 silly get     via: '1.1 varnish',
+108 silly get     'cache-control': 'max-age=300',
+108 silly get     etag: '"D617DRS87AM45K15LJ1P7E82C"',
+108 silly get     age: '136',
+108 silly get     connection: 'keep-alive',
+108 silly get     'x-served-by': 'cache-ams4133-AMS',
+108 silly get     'x-cache': 'HIT',
+108 silly get     'x-cache-hits': '74',
+108 silly get     'x-timer': 'S1465973246.496310,VS0,VE0',
+108 silly get     vary: 'Accept-Encoding' } ]
+109 verbose etag https://registry.npmjs.org/tether from cache
+110 verbose get saving tether to /Users/iMocco/.npm/registry.npmjs.org/tether/.cache.json
+111 verbose correctMkdir /Users/iMocco/.npm correctMkdir not in flight; initializing
+112 silly addNameTag next cb for tether with tag latest
+113 silly addNamed tether@1.3.2
+114 verbose addNamed "1.3.2" is a plain semver version for tether
+115 silly cache afterAdd tether@1.3.2
+116 verbose afterAdd /Users/iMocco/.npm/tether/1.3.2/package/package.json not in flight; writing
+117 verbose correctMkdir /Users/iMocco/.npm correctMkdir not in flight; initializing
+118 verbose afterAdd /Users/iMocco/.npm/tether/1.3.2/package/package.json written
+119 silly install resolved [ { name: 'tether',
+119 silly install resolved     version: '1.3.2',
+119 silly install resolved     description: 'A client-side library to make absolutely positioned elements attach to elements in the page efficiently.',
+119 silly install resolved     authors:
+119 silly install resolved      [ 'Zack Bloom <zackbloom@gmail.com>',
+119 silly install resolved        'Adam Schwartz <adam.flynn.schwartz@gmail.com>' ],
+119 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+119 silly install resolved     scripts:
+119 silly install resolved      { reinstall: 'del node_modules && npm install',
+119 silly install resolved        watch: 'gulp watch',
+119 silly install resolved        build: 'gulp build' },
+119 silly install resolved     repository:
+119 silly install resolved      { type: 'git',
+119 silly install resolved        url: 'git+https://github.com/HubSpot/tether.git' },
+119 silly install resolved     license: 'MIT',
+119 silly install resolved     main: 'dist/js/tether.js',
+119 silly install resolved     devDependencies:
+119 silly install resolved      { del: '^2.0.2',
+119 silly install resolved        'del-cli': '^0.2.0',
+119 silly install resolved        gulp: '^3.9.0',
+119 silly install resolved        'gulp-autoprefixer': '^3.0.1',
+119 silly install resolved        'gulp-babel': '^5.2.1',
+119 silly install resolved        'gulp-bump': '^0.3.1',
+119 silly install resolved        'gulp-concat': '^2.6.0',
+119 silly install resolved        'gulp-header': '^1.7.1',
+119 silly install resolved        'gulp-minify-css': '^1.2.1',
+119 silly install resolved        'gulp-plumber': '^1.0.1',
+119 silly install resolved        'gulp-rename': '^1.2.2',
+119 silly install resolved        'gulp-sass': '^2.0.4',
+119 silly install resolved        'gulp-uglify': '^1.4.1',
+119 silly install resolved        'gulp-wrap-umd': '^0.2.1' },
+119 silly install resolved     gitHead: '48ad90f391c432847757d6b5fb142f6bee93d303',
+119 silly install resolved     bugs: { url: 'https://github.com/HubSpot/tether/issues' },
+119 silly install resolved     homepage: 'https://github.com/HubSpot/tether#readme',
+119 silly install resolved     _id: 'tether@1.3.2',
+119 silly install resolved     _shasum: '99882bff445d4579877e1e358d65ce96431e08d0',
+119 silly install resolved     _from: 'tether@latest',
+119 silly install resolved     _npmVersion: '2.14.12',
+119 silly install resolved     _nodeVersion: '4.2.4',
+119 silly install resolved     _npmUser: { name: 'hs', email: 'devteam@hubspot.com' },
+119 silly install resolved     dist:
+119 silly install resolved      { shasum: '99882bff445d4579877e1e358d65ce96431e08d0',
+119 silly install resolved        tarball: 'https://registry.npmjs.org/tether/-/tether-1.3.2.tgz' },
+119 silly install resolved     _npmOperationalInternal:
+119 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+119 silly install resolved        tmp: 'tmp/tether-1.3.2.tgz_1461866039580_0.9770346274599433' },
+119 silly install resolved     directories: {},
+119 silly install resolved     _resolved: 'https://registry.npmjs.org/tether/-/tether-1.3.2.tgz',
+119 silly install resolved     readme: 'ERROR: No README data found!' } ]
+120 info install tether@1.3.2 into /Users/iMocco/workspace/xiegou-web-front
+121 info installOne tether@1.3.2
+122 verbose installOne of tether to /Users/iMocco/workspace/xiegou-web-front not in flight; installing
+123 verbose correctMkdir /Users/iMocco/.npm/_locks correctMkdir not in flight; initializing
+124 verbose lock using /Users/iMocco/.npm/_locks/tether-84a042e1c9865668.lock for /Users/iMocco/workspace/xiegou-web-front/node_modules/tether
+125 silly install write writing tether 1.3.2 to /Users/iMocco/workspace/xiegou-web-front/node_modules/tether
+126 verbose unbuild node_modules/tether
+127 info preuninstall tether@1.3.2
+128 info uninstall tether@1.3.2
+129 verbose unbuild rmStuff tether@1.3.2 from /Users/iMocco/workspace/xiegou-web-front/node_modules
+130 info postuninstall tether@1.3.2
+131 silly gentlyRm /Users/iMocco/workspace/xiegou-web-front/node_modules/tether is being purged from base /Users/iMocco/workspace/xiegou-web-front
+132 verbose gentlyRm don't care about contents; nuking /Users/iMocco/workspace/xiegou-web-front/node_modules/tether
+133 silly vacuum-fs purging /Users/iMocco/workspace/xiegou-web-front/node_modules/tether
+134 silly vacuum-fs quitting because other entries in /Users/iMocco/workspace/xiegou-web-front/node_modules
+135 verbose tar unpack /Users/iMocco/.npm/tether/1.3.2/package.tgz
+136 verbose tar unpacking to /Users/iMocco/workspace/xiegou-web-front/node_modules/tether
+137 silly gentlyRm /Users/iMocco/workspace/xiegou-web-front/node_modules/tether is being purged
+138 verbose gentlyRm don't care about contents; nuking /Users/iMocco/workspace/xiegou-web-front/node_modules/tether
+139 silly gunzTarPerm modes [ '755', '644' ]
+140 silly gunzTarPerm extractEntry package.json
+141 silly gunzTarPerm extractEntry .npmignore
+142 silly gunzTarPerm extractEntry README.md
+143 silly gunzTarPerm extractEntry LICENSE
+144 silly gunzTarPerm extractEntry gulpfile.js
+145 silly gunzTarPerm extractEntry bower.json
+146 silly gunzTarPerm extractEntry .hsdoc
+147 silly gunzTarPerm extractEntry component.json
+148 silly gunzTarPerm extractEntry dist/css/tether-theme-arrows-dark.css
+149 silly gunzTarPerm extractEntry dist/css/tether-theme-arrows-dark.min.css
+150 silly gunzTarPerm extractEntry dist/css/tether-theme-arrows.css
+151 silly gunzTarPerm extractEntry dist/css/tether-theme-arrows.min.css
+152 silly gunzTarPerm extractEntry dist/css/tether-theme-basic.css
+153 silly gunzTarPerm extractEntry dist/css/tether-theme-basic.min.css
+154 silly gunzTarPerm extractEntry dist/css/tether.css
+155 silly gunzTarPerm extractEntry dist/css/tether.min.css
+156 silly gunzTarPerm extractEntry dist/js/tether.js
+157 silly gunzTarPerm extractEntry dist/js/tether.min.js
+158 silly gunzTarPerm extractEntry docs/1-Overview/1-why_you_should_use_tether.md
+159 silly gunzTarPerm extractEntry docs/1-Overview/2-repositioning.md
+160 silly gunzTarPerm extractEntry docs/1-Overview/3-why_we_dont_support_IE_8.md
+161 silly gunzTarPerm extractEntry docs/2-Examples/1-list_of_examples.md
+162 silly gunzTarPerm extractEntry docs/2-Examples/2-projects_using_tether.md
+163 silly gunzTarPerm extractEntry docs/3-Advanced/1-embedding_tether.md
+164 silly gunzTarPerm extractEntry docs/3-Advanced/2-extending_tether.md
+165 silly gunzTarPerm extractEntry docs/coffee/intro.coffee
+166 silly gunzTarPerm extractEntry docs/css/intro.css
+167 silly gunzTarPerm extractEntry docs/intro.md
+168 silly gunzTarPerm extractEntry docs/js/intro.js
+169 silly gunzTarPerm extractEntry docs/js/markAttachment.js
+170 silly gunzTarPerm extractEntry docs/sass/intro.sass
+171 silly gunzTarPerm extractEntry docs/welcome/browser-demo.html
+172 silly gunzTarPerm extractEntry docs/welcome/coffee/welcome.coffee
+173 silly gunzTarPerm extractEntry docs/welcome/css/browser-demo.css
+174 silly gunzTarPerm extractEntry docs/welcome/css/prism.css
+175 silly gunzTarPerm extractEntry docs/welcome/css/welcome.css
+176 silly gunzTarPerm extractEntry docs/welcome/index.html
+177 silly gunzTarPerm extractEntry docs/welcome/js/drop.js
+178 silly gunzTarPerm extractEntry docs/welcome/js/jquery.js
+179 silly gunzTarPerm extractEntry docs/welcome/js/log.js
+180 silly gunzTarPerm extractEntry docs/welcome/js/tether-v0.1.3.js
+181 silly gunzTarPerm extractEntry docs/welcome/js/welcome.js
+182 silly gunzTarPerm extractEntry docs/welcome/sass/_inline-block.sass
+183 silly gunzTarPerm extractEntry docs/welcome/sass/browser-demo.sass
+184 silly gunzTarPerm extractEntry docs/welcome/sass/welcome.sass
+185 silly gunzTarPerm extractEntry examples/out-of-bounds/index.html
+186 silly gunzTarPerm extractEntry examples/chosen/chosen.js
+187 silly gunzTarPerm extractEntry examples/chosen/chosen-sprite.png
+188 silly gunzTarPerm extractEntry examples/chosen/chosen.css
+189 silly gunzTarPerm extractEntry examples/chosen/index.html
+190 silly gunzTarPerm extractEntry examples/content-visible/index.html
+191 silly gunzTarPerm extractEntry examples/dolls/dolls.js
+192 silly gunzTarPerm extractEntry examples/dolls/dolls.css
+193 silly gunzTarPerm extractEntry examples/dolls/index.html
+194 silly gunzTarPerm extractEntry examples/element-scroll/index.html
+195 silly gunzTarPerm extractEntry examples/enable-disable/index.html
+196 silly gunzTarPerm extractEntry examples/facebook/facebook.css
+197 silly gunzTarPerm extractEntry examples/facebook/index.html
+198 silly gunzTarPerm extractEntry examples/common/css/style.css
+199 silly gunzTarPerm extractEntry examples/pin/index.html
+200 silly gunzTarPerm extractEntry examples/resources/css/base.css
+201 silly gunzTarPerm extractEntry examples/resources/js/jquery.js
+202 silly gunzTarPerm extractEntry examples/resources/js/log.js
+203 silly gunzTarPerm extractEntry examples/scroll/index.html
+204 silly gunzTarPerm extractEntry examples/simple/index.html
+205 silly gunzTarPerm extractEntry examples/testbed/index.html
+206 silly gunzTarPerm extractEntry examples/tooltip/index.html
+207 silly gunzTarPerm extractEntry examples/viewport/colors.css
+208 silly gunzTarPerm extractEntry examples/viewport/index.html
+209 silly gunzTarPerm extractEntry CHANGELOG.md
+210 silly gunzTarPerm extractEntry CONTRIBUTING.md
+211 silly gunzTarPerm extractEntry src/css/helpers/_tether-theme-arrows.sass
+212 silly gunzTarPerm extractEntry src/css/helpers/_tether-theme-basic.sass
+213 silly gunzTarPerm extractEntry src/css/helpers/_tether.sass
+214 silly gunzTarPerm extractEntry src/css/mixins/_inline-block.sass
+215 silly gunzTarPerm extractEntry src/css/mixins/_pie-clearfix.sass
+216 silly gunzTarPerm extractEntry src/css/tether-theme-arrows-dark.sass
+217 silly gunzTarPerm extractEntry src/css/tether-theme-arrows.sass
+218 silly gunzTarPerm extractEntry src/css/tether-theme-basic.sass
+219 silly gunzTarPerm extractEntry src/css/tether.sass
+220 silly gunzTarPerm extractEntry src/js/abutment.js
+221 silly gunzTarPerm extractEntry src/js/constraint.js
+222 silly gunzTarPerm extractEntry src/js/markAttachment.js
+223 silly gunzTarPerm extractEntry src/js/shift.js
+224 silly gunzTarPerm extractEntry src/js/tether.js
+225 silly gunzTarPerm extractEntry src/js/utils.js
+226 verbose write writing to /Users/iMocco/workspace/xiegou-web-front/node_modules/tether/package.json
+227 info preinstall tether@1.3.2
+228 verbose readDependencies loading dependencies from /Users/iMocco/workspace/xiegou-web-front/node_modules/tether/package.json
+229 verbose readDependencies loading dependencies from /Users/iMocco/workspace/xiegou-web-front/node_modules/tether/package.json
+230 silly install resolved []
+231 verbose about to build /Users/iMocco/workspace/xiegou-web-front/node_modules/tether
+232 info build /Users/iMocco/workspace/xiegou-web-front/node_modules/tether
+233 info linkStuff tether@1.3.2
+234 silly linkStuff tether@1.3.2 has /Users/iMocco/workspace/xiegou-web-front/node_modules as its parent node_modules
+235 verbose linkBins tether@1.3.2
+236 verbose linkMans tether@1.3.2
+237 verbose rebuildBundles tether@1.3.2
+238 info install tether@1.3.2
+239 info postinstall tether@1.3.2
+240 verbose unlock done using /Users/iMocco/.npm/_locks/tether-84a042e1c9865668.lock for /Users/iMocco/workspace/xiegou-web-front/node_modules/tether
+241 verbose validateInstall loading /Users/iMocco/workspace/xiegou-web-front/package.json for validation
+242 verbose stack Error: The package babel-runtime@5.8.38 does not satisfy its siblings' peerDependencies requirements!
+242 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+242 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+242 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+242 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+242 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+242 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+242 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+242 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+242 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+242 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+243 verbose cwd /Users/iMocco/workspace/xiegou-web-front
+244 error Darwin 15.5.0
+245 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "tether"
+246 error node v4.4.5
+247 error npm  v2.15.5
+248 error code EPEERINVALID
+249 error peerinvalid The package babel-runtime@5.8.38 does not satisfy its siblings' peerDependencies requirements!
+249 error peerinvalid Peer vue-loader@8.5.2 wants babel-runtime@^6.0.0
+250 verbose exit [ 1, true ]
