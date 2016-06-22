@@ -81,10 +81,10 @@ exports.install = function install(Vue) {
     // 判断boolean值
     function coerceBoolean(val) {
         return (typeof val !== 'string' ? val
-           : val === 'true' ? true
-           : val === 'false' ? false
-           : val === 'null' ? false
-           : val === 'undefined' ? false : val);
+         : val === 'true' ? true
+         : val === 'false' ? false
+         : val === 'null' ? false
+         : val === 'undefined' ? false : val);
     }
 
     // 判断是否是函数
@@ -105,8 +105,43 @@ exports.install = function install(Vue) {
     function removeGS(data){
         return JSON.parse(JSON.stringify(data));
     }
+
+    // 用原声JS实现对象的深度克隆
+    function deepCopy(oldObj) {
+        // 定义一个新的空对象
+        let newObject = {};
+        if (oldObj.constructor === Object) {
+            newObject = new oldObj.constructor();
+        } else {
+            newObject = new oldObj.constructor(oldObj.valueOf());
+        }
+
+
+        // 遍历克隆原对象属性
+        for(const key in oldObj){
+            if (newObject[key] !== oldObj[key]) {
+                if (typeof(oldObj[key]) === 'object') {
+                // 对象内部的子对象
+                    newObject[key] =deepCopy(oldObj[key]);
+                } else {
+                    newObject[key] = oldObj[key];
+                }
+            }
+        }
+        // 克隆原对象常用的方法
+        newObject.toString = oldObj.toString;
+        newObject.valueOf = oldObj.valueOf;
+
+        return newObject;
+    }
     // 添加vue属性
     Object.defineProperties(Vue.prototype, {
+
+        $deepCopy: {
+            get() {
+                return deepCopy;
+            }
+        },
 
         $prefixedEvent: {
             get() {
@@ -192,6 +227,7 @@ exports.install = function install(Vue) {
     Vue.http.interceptors.push({
         request(request) {
             // TODO
+            request.url='http://localhost:8111'+request.url;
             return request;
         },
         response(response) {
