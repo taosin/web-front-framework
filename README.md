@@ -32,4 +32,4 @@
 | current-page     | Number| 设置当前页      |
 | limit      | Number      | 按钮显示数      |
 | per-page | Number        |  每页显示记录数  |
-| total-rows| Number        |  记录总数        |
+| total-rows| Number        |  记录总数      |
