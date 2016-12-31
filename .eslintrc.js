@@ -12,7 +12,8 @@ module.exports = {
         'VerifyCode':true,
         'Qiniu':true,
         'qq':true,
-        'calculate':true
+        'calculate':true,
+        '$':true
     },
     rules: {
         'arrow-parens': 0,
@@ -47,6 +48,7 @@ module.exports = {
         'prefer-template':0,
         'max-len':0,
         'keyword-spacing':0,
-        'prefer-rest-params':0
+        'prefer-rest-params':0,
+        'prefer-arrow-callback':0
     }
 }

@@ -3,7 +3,7 @@
 	<div>
 		<leftlayout>
 			<div slot="left_menu">
-				<leftmenu :data="menus"></leftmenu>
+				<leftmenu :data="menus" :current="currentMenu"></leftmenu>
 			</div>
 			<div slot="left_container">
 				<router-view class="view" transition="expand" transition-mode="out-in"></router-view>
@@ -29,11 +29,17 @@
 			}
 			
 		},
+		route:{
+			data(transition){
+				this.currentMenu = transition.to.path;
+			}
+		},
 		data(){
 			return{
+				currentMenu:''
 			};
 		},
-		created(){
+		attached(){
 			this.getLeftMenus();
 		},
 		ready(){

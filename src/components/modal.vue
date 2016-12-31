@@ -1,6 +1,6 @@
 <!--模态框-->
 <template>
-    <div class="modal-mask" v-show="show" transition="modal" @click="closemodal">
+    <div class="modal-mask" v-show="show" transition="modal">
        <div class="modal-wrapper">
         <div class="modal-container">
 
@@ -43,31 +43,6 @@
         },
         methods: {
 
-            // 点击阴影处关闭modal
-            closemodal(e){
-                const classname = e.target.className;
-                debugger;
-                if(e.target.parentNode.className === 'close'){
-                    this.show = false;
-                }
-                if (this.shadow){
-                    if (classname === 'modal-wrapper'){
-                        this.show = false;
-                    } else if(e.target.parentNode.className === 'close'){
-                        this.show = false;
-                    } else{
-                        this.show = true;
-                    }
-                } else{
-                    if(e.target.parentNode.className === 'close'){
-                        this.show = false;
-                    }else{
-
-                        this.show = true;
-                    }
-                }
-                
-            }
         }
 
     };
